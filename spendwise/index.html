@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--- welcome popup -->
+    <div id="popup" class="pop">
+        <div class="popup-box">
+            <h2>Welcome to SpendWise</h2>
+            <p> Track smarter . Save Better</p>
+            <input type="text" id="username" placeholder="Enter your name">
+            <button class="btn" id="btn" onclick="startsite()">Start Now</button>
+        </div>
+    </div>
+    <nav>
+        <img src="./spendwise4.jpeg" id="ligh">
+        <img src="./spendwise2.jpeg" id="dar">
+        <p class="hide" >SPENDWISE</p>
+        <div class="links" id="links">
+        <a href="#dashboard" onclick="dash()">Dashboard</a>
+        <a href="#addexpense" onclick="add()">Add Expense</a>
+        <a href="#all" onclick="trans()">Transactions</a>
+        <a href="#budget" onclick="report()">Budget</a>
+        </div>
+        <img src="./whitemenu2.png" id="menuwhite" onclick="menuf()">
+        <img src="./whitecross.png" id="crosswhite" onclick="crossf()">
+        <img src="./whitemenu.png" id="menublack" onclick="menus()">
+        <img src="./blackcross.png" id="crossblack" onclick="crosss()">
+        <img src="./dark3.png" id="dark" onclick="dark()">
+        <img src="./light2.png" id="light" onclick="light()">
+        
+    </nav>
+    <section class="board" id="dashboard" >
+    <h2> Welcome to SpendWise</h2>
+    <div  class="dashboard">
+    
+    <h2 id="greetings"></h2>
+    <div class="line">
+    <p> Total amount per day:</p>&nbsp &nbsp
+    <p id="day" class="num">0</p></div>
+    <div class="line"><p> Total amount spend: </p>&nbsp &nbsp
+    <p id="month" class="num">0</p></div>
+    <div class="line">
+    <p>total expense: </p>&nbsp &nbsp
+    <p id="expense" class="num">0</p>
+    </div>
+    </div>
+
+    </section>
+    <section id="addexpense" class="board">
+    <h2> Add a Expenses</h2>
+    <div class="dashboard2" >
+        <input type="text" placeholder="Enter Name of expense" id="name">
+        <input type="text" placeholder="Enter the expense Amount " id="amount">
+        <input type="text" placeholder="Enter the expense Category" id="cat">
+        <input type="date" placeholder="Enter the expense Date" id="date">
+        <button type="submit" id="btn" onclick="addd()">Add+</button>
+
+    </div>
+    </section>
+    <section class="all" id="all">
+        <h2>History of Expenses</h2>
+    <section id="transa" >
+    <div class="das" id="transaction" >
+    </div>
+        
+    </section>
+    </section>
+    <section id="budget"class="board">
+        <h2> Budget</h2>
+        
+    <div class="dashboard">
+        <input type="text" placeholder="Enter total budget you have" id="tota">
+        <button id="enter" class="btn" onclick="getTotalBudget()">submit</button>
+         <div class="line">
+            <p> Total amount spend:</p>&nbsp &nbsp
+            <p id="totall" class="num">0</p></div>
+         <div class="line">
+            <p>Remaining percentage:</p>&nbsp &nbsp
+            <p id="percent" class="num">0</p></div>
+         </div>
+    </section>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
