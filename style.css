@@ -1,6 +1,6 @@
 body{
     margin:auto;
-    background-color:rgb(217, 248, 248);
+    background-color:rgb(224, 247, 247);
     overflow-x: hidden;
     display:flex;
     flex-direction:column;
@@ -295,7 +295,7 @@ nav #light{
 
 @media(max-width:600px){
     body{
-        background-color: rgb(217, 248, 248);
+        background-color: rgb(224, 247, 247);
     }
     nav{
         height:60px;
