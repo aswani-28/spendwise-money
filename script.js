@@ -172,6 +172,12 @@ function crosss(){
     document.getElementsByClassName("links")[0].style.left="100%";
 }
 function dark(){
+    // document.getElementsByClassName("board")[0].getElementsByTagName("h2").style.color="aqua";
+    let heads=document.getElementsByClassName("board");
+    for(let i=0;i<heads.length;i++){
+        heads[i].getElementsByTagName("h2")[0].style.color="rgb(30, 175, 175)";
+    }
+    document.getElementById("all").getElementsByTagName("h2")[0].style.color="rgb(30, 175, 175)";
     document.getElementById("greetings").style.color="rgb(16, 177, 177)";
     let num=document.getElementsByClassName("num");
     for( let i=0;i<num.length;i++){
@@ -182,7 +188,7 @@ function dark(){
     document.getElementById("light").style.display="block";
     document.getElementById("ligh").style.display="block";
     document.getElementById("dar").style.display="none";
-    document.body.style.backgroundColor="rgb(4, 121, 93)";
+    document.body.style.backgroundColor="rgb(14, 41, 41)";
     // document.body.style.backgroundColor="rgb(7, 177, 177)";
     document.getElementsByTagName("nav")[0].style.backgroundColor="black";
     let links=document.getElementsByTagName("a");
@@ -262,6 +268,11 @@ function light(){
         num[i].style.color="rgb(0, 94, 90)";
 
     }
+    let heads=document.getElementsByClassName("board");
+    for(let i=0;i<heads.length;i++){
+        heads[i].getElementsByTagName("h2")[0].style.color="black";
+    }
+    document.getElementById("all").getElementsByTagName("h2")[0].style.color="black";
     document.getElementById("dar").style.display="block";
     document.getElementById("ligh").style.display="none";
     document.getElementById("light").style.display="none";
