@@ -188,7 +188,7 @@ function dark(){
     document.getElementById("light").style.display="block";
     document.getElementById("ligh").style.display="block";
     document.getElementById("dar").style.display="none";
-    document.body.style.backgroundColor="rgb(65, 70, 70)";
+    document.body.style.backgroundColor="rgb(3, 48, 42)";
     // document.body.style.backgroundColor="rgb(7, 177, 177)";
     document.getElementsByTagName("nav")[0].style.backgroundColor="black";
     let links=document.getElementsByTagName("a");
@@ -277,7 +277,7 @@ function light(){
     document.getElementById("ligh").style.display="none";
     document.getElementById("light").style.display="none";
     document.getElementById("dark").style.display="block";
-    document.body.style.backgroundColor="rgb(217, 248, 248)";
+    document.body.style.backgroundColor="rgb(224, 247, 247)";
     document.getElementsByTagName("nav")[0].style.backgroundColor="rgb(255,255,255)";
     let links=document.getElementsByTagName("a");
     for(let i=0;i<links.length;i++){
