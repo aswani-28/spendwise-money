@@ -271,31 +271,31 @@ nav #light{
     display:none;
 }
 #menublack,#crossblack{
-    width:25px;
-    height:25px;
+    width:24px;
+    height:24px;
     display:none;
     position:absolute;
-    left:19em;
+    left:20em;
 }
 #crosswhite{
-    width: 30px;
-    height:30px;
+    width: 28px;
+    height:28px;
     display:none;
     position:absolute;
-    left:17.7em;
+    left:19.7em;
 
 }
 #menuwhite{
-    width:25px;
-    height:25px;
+    width:24px;
+    height:24px;
     display:none;
     position:absolute;
-    left:16em;
+    left:18em;
 }
 
 @media(max-width:600px){
     body{
-        background-color: rgb(212, 255, 255);
+        background-color: rgb(217, 248, 248);
     }
     nav{
         height:60px;
@@ -345,7 +345,7 @@ nav #light{
         font-size:20px;
     }
     .dashboard{
-         width:24em;
+         width:23em;
         /* font-size:20px; */
     }
     .dashboard p{
@@ -358,7 +358,7 @@ nav #light{
         font-size: 20px;;
     }
     .dashboard2{
-        width:24em;
+        width:23em;
         height:18em;
     }
     .dashboard2 input{
@@ -378,7 +378,7 @@ nav #light{
         margin-top:40px;
     }
     .all .das{
-        width:18.8em;
+        width:17.8em;
         height:12em;
     }
     .all p{
